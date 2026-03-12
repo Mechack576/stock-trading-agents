@@ -1,0 +1,32 @@
+# Environment
+.env
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Agent memory
+memory/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# uv
+.uv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store

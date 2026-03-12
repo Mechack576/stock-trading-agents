@@ -1,0 +1,19 @@
+[project]
+name = "stock-trading-agents"
+version = "0.1.0"
+description = "Multi-agent autonomous stock trading system powered by the OpenAI Agents SDK and MCP"
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents>=0.0.7",
+    "openai>=1.0.0",
+    "mcp>=1.0.0",
+    "fastmcp>=0.1.0",
+    "polygon-api-client>=1.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
